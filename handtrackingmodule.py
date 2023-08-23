@@ -18,8 +18,6 @@ class HandDetector():
         return frame
 
 def main():
-    device_ip = '192.168.10.4'
-    port = '4747'
     camera_capture = cv2.VideoCapture(0)
 
     while camera_capture.isOpened():  # Added .isOpened() to the condition
